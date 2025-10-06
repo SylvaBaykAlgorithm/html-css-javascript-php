@@ -26,7 +26,7 @@
     <iframe id=contentWindow name=contentWindow src="php/home.php" frameborder="0"></iframe>
 
     <footer>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum et animi suscipit repellendus numquam totam, sapiente recusandae. Doloremque, a, in deleniti architecto sapiente reprehenderit beatae saepe eos earum ipsa dignissimos.</h1>
+        <iframe src="php/footer.php" frameborder="0"></iframe>
     </footer>
 </body>
 </html>
