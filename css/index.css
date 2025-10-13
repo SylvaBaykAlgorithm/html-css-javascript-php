@@ -3,28 +3,33 @@
     color: aquamarine;
 } */
 
-#navigation {
+#navbar {
     background-color:rgb(50, 130, 180);
-    width: 100%;
-    height: 30%;
+    width: 99.2vw;
+    height: 80px;
     display: flex;
     flex-direction: row;
+    align-self: center;
     position: sticky;
     top: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 body {
     margin:0;
     padding:0;
-    width: 100%;
-    height:100%;
-    background-color: beige;
+    width: 99.2vw;
+    height:100vh;
+
 
 }
 
 #logo{
     width: 80px;
     height: 80px;
+    padding: 0;
+    margin: 0;
 
 }
 #links a{
@@ -45,17 +50,32 @@ body {
 #links li{
     list-style-type: none;
 }
+#contentFrame{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    width: 99.2vw;
+    background-color: beige;
+       padding: 0;
+    margin: 0;
+}
+
 #contentWindow{
-    width: 80%;
-    height: 1000px;
+    width: 80vw;
+    min-height: 100vh;
     background-color: white;
-    margin-left:10%;
+    padding: 0;
+    margin: 0;
+
 }
 
 footer{
      background-color:rgb(50, 130, 180);
-    width: 100%;
-    height: 150px;
+    width: 99.2vw;
+    min-height: 100px;
     padding: 0%;
     margin: 0%;
+    display: flex;
+    align-self: center;
 }
