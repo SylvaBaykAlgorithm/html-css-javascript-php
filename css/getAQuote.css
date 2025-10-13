@@ -1,0 +1,39 @@
+#getAQuoteContent{
+    display: flex;
+  justify-content: center;
+  align-items: center; 
+  min-height: 20vh; 
+}
+#buttonArea{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+button{
+    min-width: 20vw;
+    min-height: 10vh;
+    margin: 50px;
+    background-color:rgb(71, 139, 181);
+    border: 0px;
+    border-radius: 10%;
+}
+
+#formDiv{
+
+
+}
+
+#formSections{
+}
+input{
+    height: 20px;
+    margin: 5px;
+    
+}
+
+#descriptionText{
+    height: 200px;
+    width: 600px;
+}
