@@ -9,7 +9,7 @@
 </head>
 <body>
  
-<nav id=navigation>
+<nav id=navbar>
      <div id=logoBox>
         <a href="php/home.php" target="contentWindow" name="home">
             <img id=logo src="content/Logo.png" alt="">
@@ -23,10 +23,13 @@
         </ul>
     </div>
 </nav>
-    <iframe id=contentWindow name=contentWindow src="php/home.php" frameborder="0"></iframe>
-
+<div id=contentFrame>
+    <iframe id=contentWindow name=contentWindow src="php/newQuote.php" frameborder="0"></iframe>
+</div>
+<div>
     <footer>
         <iframe src="php/footer.php" frameborder="0"></iframe>
     </footer>
+</div>
 </body>
 </html>
