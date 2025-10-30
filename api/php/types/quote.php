@@ -11,10 +11,10 @@ class Quote
 
     public function getId(){return $this->id;}
     public function setId($id){$this->id=$id;}
-    public function getName(){return $this->fname;}
-    public function setName($name){$this->fname=$name;}
-    public function getlname(){return $this->lname;}
-    public function setlname($lname){$this->lname=$lname;}
+    public function getFName(){return $this->fname;}
+    public function setFName($name){$this->fname=$name;}
+    public function getLName(){return $this->lname;}
+    public function setLName($lname){$this->lname=$lname;}
     public function getAddress(){return $this->address;}
     public function setAddress($address){$this->address=$address;}
     public function getJobType(){return $this->jobType;}
@@ -44,12 +44,12 @@ class QuoteRequest
     private $jobType;
     private $description;
 
-    public function getFname()
+    public function getFName()
     {return $this->fname;}
-    public function setFname($fname) {$this->fname = $fname;}
+    public function setFName($fname) {$this->fname = $fname;}
 
-    public function getlname(){return $this->lname;}
-    public function setlname($lname) {$this->lname = $lname;}
+    public function getLName(){return $this->lname;}
+    public function setLName($lname) {$this->lname = $lname;}
     public function getAddress(){return $this->address;}        
     public function setAddress($address) {$this->address = $address;}
     public function getJobType(){return $this->jobType;}    

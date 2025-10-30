@@ -7,9 +7,7 @@
 </head>
 <body>
     <div>
-        
     <h2>Ashwood Services – Building with Integrity and Innovation</h2>
-
         <h1>About Us</h1>
         
 Ashwood Services is a modern construction company dedicated to delivering high-quality workmanship with a focus on reliability, safety, and customer satisfaction. Founded on the principles of integrity and innovation, we provide comprehensive construction solutions tailored to meet the unique needs of every client.

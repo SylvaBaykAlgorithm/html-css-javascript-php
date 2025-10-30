@@ -24,7 +24,7 @@
     </div>
 </nav>
 <div id=contentFrame>
-    <iframe id=contentWindow name=contentWindow src="php/newQuote.php" frameborder="0"></iframe>
+    <iframe id=contentWindow name=contentWindow src="php/processQuote.php" frameborder="0"></iframe>
 </div>
 <div>
     <footer>
